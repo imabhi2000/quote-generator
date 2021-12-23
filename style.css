@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 nav{
     position: fixed;
     top: 0;
@@ -11,16 +14,16 @@ nav{
     color: white;
     display: flex;
     align-items: center;
-    height: 4.5rem;
+    height: 7.2rem;
     background-color: black;
     opacity: 0.7;
 }
 nav .name{
-    margin:0px 10px;
-    font-size: 2rem;
+    margin:0px 1rem;
+    font-size: 3.2rem;
 }
 img{
-    height: 70px;
+    height: 7rem;
 }
 
 body{
@@ -40,32 +43,32 @@ min-height: 100vh;
 
 .quote-container{
     width: auto;
-    max-width: 900px;
-    padding: 20px 30px;
-    border-radius: 10px;
+    max-width: 90rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
     background-color: rgba(255 , 255 , 255 , 0.4);
-    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 1rem 1rem 1rem rgba(0,0,0,0.2);
 
 }
 
 .quote-text{
-    font-size: 2.75rem; 
+    font-size: 4.4rem; 
 }
 .long-quote{
-    font-size: 2rem;
+    font-size: 3.2rem;
 }
 .fa-quote-left{
-    font-size: 4rem;
+    font-size: 6.4rem;
 }
 .quote-author{
-margin-top:15px;
+margin-top:1.5rem;
 font-size: 2rem;
 font-weight: 400;
 font-style: italic;
 }
 
 .button-container{
-    margin-top:15px;
+    margin-top:1.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -73,16 +76,16 @@ font-style: italic;
 
 button{
     cursor: pointer;
-    font-size: 1.2rem;
-    height: 2.5rem;
+    font-size: 1.92rem;
+    height: 4rem;
 
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     color: white;
     background-color: black;
     outline: none;
-    padding:0.5rem 1.8rem;
-    box-shadow: 0 0.3rem rgba(121,121,121,0.65);
+    padding:0.8rem 2.88rem;
+    box-shadow: 0 0.48rem rgba(121,121,121,0.65);
 
 }
 
@@ -91,8 +94,8 @@ button:hover{
 }
 
 button:active{
-    transform: translate(0 , 0.3rem);
-    box-shadow: 0 0.1rem rgba(255,255,255,0.65);
+    transform: translate(0 , 0.43rem);
+    box-shadow: 0 0.16rem rgba(255,255,255,0.65);
 }
 
 .twitter-button:hover{
@@ -100,7 +103,7 @@ button:active{
 }
 
 .fa-twitter{
-    font: size 1.5rem;
+    font: size 2.4rem;
 }
 
 footer{
@@ -109,34 +112,45 @@ footer{
     bottom: 0px;
     /* margin-bottom: 0%; */
 
-    font-size: 2rem;
+    font-size: 3.2rem;
     left: 0px;
     min-width: 100vw;
     background-color: black;
     opacity: 0.7;
     
     color: white;
-    height: 5rem;
+    height: 8rem;
 }
 
 .bio{
     color: white;
     cursor: pointer;
-    margin: 0px 0px 0px 5px;
-    font-size:1.5rem;
+    margin: 0px 0px 0px 0.8rem;
+    font-size:2.4rem;
 }
 a{
     text-decoration: none;
 }
-
-@media screen and (max-width:1000px) {
-    .quote-container{
-        margin:auto 10px;
-        
+@media screen and (max-width: 1000px) {
+    html{
+        font-size:55%
     }
+}
 
-    .quote-text{
-        font-size:2.5rem;
-    } 
+@media screen and  (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+}
+ @media screen and (max-width:468px) {
+     html{
+         font-size: 40%;
+     }
+} 
+
+@media screen and (max-width:368px) {
+     html{
+         font-size: 28%;
+     }
 }
 
